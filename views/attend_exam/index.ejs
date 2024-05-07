@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu</title>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/all.min.css">
+<link rel="stylesheet" href="../assests/css/exam.css">
+
+</head>
+<body>
+  
+<script>
+function decodeHtmlEntities(html) {
+var doc = new DOMParser().parseFromString(html, 'text/html');
+return doc.body.textContent || "";
+}
+var encodedData = "<%= JSON.stringify(data) %>";
+var examId = JSON.parse(decodeHtmlEntities(encodedData));
+</script>
+<main>
+<div id="preloader"></div>
+<div class="quiz-container" id="quiz">
+<h1 class="quiz-name" id="quiz-name"></h1>
+<button id="submit-button" data-lang="Attend_Exam_Submit_Answer">Submit Answers</button>
+<button id="next-question-button" data-lang="Attend_Exam_Next_Question">Next Question</button>
+<button id="prev-question-button" data-lang="Attend_Exam_Previous_Question">Previous</button>
+
+<div class="quiz-results" id="quiz-results">
+<p id="quiz-results-message"></p>
+<p id="quiz-results-score"></p>
+<button id="quiz-restart-button"></button>
+</div>
+</div>
+</main>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="../assests/js/attend_exam.js"></script>
+<script src="../assests/js/language.js"></script>
+</body>
+</html>

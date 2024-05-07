@@ -1,0 +1,75 @@
+<header>
+<nav class="navbar navbar-expand-lg bg-nav-background fixed-top border-bottom border-dark-subtle">
+<div class="container-fluid" id="top_top">
+<a class="navbar-brand" href="#">
+<img src="../assests/img/logo.png" class="img-fluid" alt="logo" width="50" height="34">
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<% if(Which_Active == 'Main'){ %>
+<a class="nav-link active" aria-current="page" href="/" data-lang="Nav_Home">Home</a>
+<% }else{ %>
+<a class="nav-link" href="/" data-lang="Nav_Home">Home</a>
+<% } %>
+</li>
+<li class="nav-item">
+<%   if(Which_Active == 'About'){ %>
+<a class="nav-link active" aria-current="page" href="/about" data-lang="Nav_About">About</a>
+<% }else{ %>
+<a class="nav-link" href="../about" data-lang="Nav_About">About</a>
+<% } %>
+</li>
+<li class="nav-item">
+<%   if(Which_Active == 'Exams'){ %>
+<a class="nav-link active" aria-current="page" href="/view_exams" data-lang="Nav_Exams">Exams</a>
+<% }else{ %>
+<a class="nav-link" href="../view_exams" data-lang="Nav_Exams">Exams</a>
+<% } %>
+</li>
+<li class="nav-item">
+<%   if(Which_Active == 'Contact'){ %>
+<a class="nav-link active" aria-current="page" href="#" data-lang="Nav_Contact">Contact</a>
+<% }else{ %>
+<a class="nav-link" href="../contact" data-lang="Nav_Contact">Contact</a>
+<% } %>
+</li>
+<li class="nav-item">
+<% if(Which_Active == 'Faq'){ %>   
+<a class="nav-link active" aria-current="page" href="#" data-lang="Nav_Faq">FAQ</a>
+<% }else{ %>
+<a class="nav-link" href="../faqs" data-lang="Nav_Faq">FAQ</a>
+<% } %>
+</li>
+</ul>
+</div>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<% if(isAuthenticated){ %>
+    <a href="/account">
+<button  class="button-secondry w-100"><span data-lang="Nav_Account">Account</span><i class="fa-regular fa-user"></i></button>
+</a>
+&nbsp;&nbsp;
+<a href="/logout">
+<button  class="button-secondry w-100"><span data-lang="User_Logout_Text">Logout</span><i class="fa-solid fa-right-from-bracket"></i></button>
+</a>
+<% } else { %>
+    <a href="/login">
+<button class="button-secondry w-100" ><span data-lang="Nav_Login">Login</span><i class="fa-regular fa-user"></i></button>
+</a>
+<% } %>
+</ul>
+<% if(!isAuthenticated){ %>
+<ul class="navbar-nav ms-3 mb-2 mb-lg-0">
+    <a href="/signup">
+<button class="button-secondry w-100"><span data-lang="Nav_Signup">Signup</span><i class="fa-regular fa-user"></i></button>
+    </a>
+</ul>
+<% } %>
+</div>
+</div>
+</nav>
+</header>

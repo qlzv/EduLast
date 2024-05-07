@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu</title>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/all.min.css">
+<link rel="stylesheet" href="../assests/css/main.css">
+<link rel="stylesheet" href="../assests/css/faqs.css">
+</head>
+<body>
+<div id="preloader"></div>
+<%- include('../includes/nav.ejs',{isAuthenticated : isAuthenticated,Which_Active : 'Faq'}) %>
+<main class="py-5">
+<div class="container px-5 pb-5">
+<div class="row gx-5 align-items-center">
+<div class="col-xxl-5">
+<div class="text-center text-xxl-start">
+<h1 class="display-3 fw-bolder mb-4 py-5" data-lang="Faq_Page_Header_Text">FAQ</h1>
+<div class="fs-3 text-muted fw-normal" data-lang="Faq_Page_Paragraph_Text">Here Are The Answers To Your Most Common Question's</div>
+</div>
+</div>
+<div class="col-xxl-7">
+
+<div class="d-flex justify-content-center mt-xxl-0">
+<div>
+<img class="lazyload img-fluid" data-src="../assests/img/FAQs-rafiki.png"  alt="...">
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<section class="process">
+<div class="process__container">
+<h1 class="fs-1 text-dark fw-bolder text-center h-auto" data-lang="Faq_Page_New_Text">
+New Around ? Find Answers Here
+</h1>
+<div class="process__intro intro">
+
+</div>
+<div class="process__accordions">
+<ul class="accordions__list">
+<li class="accordions__item">
+<button class="accordions__control" aria-expanded="false">
+<span class="accordions__number">01</span>
+<span class="accordions__title" data-lang="Faq_Page_Questions_1">Is Edu Free ?</span>
+<span class="accordions__icon"></span>
+</button>
+<div class="accordions__content text" aria-hidden="true">
+<p data-lang="Faq_Page_Answers_1">Yes, Edu Is Totally Free Forever Without Any Credit Or Premium Membership Use Anytime , AnyWhere</p>
+</div>
+</li>
+<li class="accordions__item">
+<button class="accordions__control" aria-expanded="false">
+<span class="accordions__number">02</span>
+<span class="accordions__title" data-lang="Faq_Page_Questions_2">For Which Target Audience Edu Are ?</span>
+<span class="accordions__icon"></span>
+</button>
+<div class="accordions__content text" aria-hidden="true">
+<p data-lang="Faq_Page_Answers_2">Edu Is For Universities Student's "Jordan Universities" Soon Coming For All</p>
+</div>
+</li>
+<li class="accordions__item">
+<button class="accordions__control" aria-expanded="false">
+<span class="accordions__number">03</span>
+<span class="accordions__title" data-lang="Faq_Page_Questions_3">Can I Change My University Any Time ?</span>
+<span class="accordions__icon"></span>
+</button>
+<div class="accordions__content text" aria-hidden="true">
+<p data-lang="Faq_Page_Answers_3">Simply No, You Must Contact Support In Order To Change Your University So We Can Verify.</p>  
+</div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+</main>
+
+<%- include('../includes/footer.ejs') %>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="../assests/js/faq.js"></script>
+<script src="../assests/js/language.js"></script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>

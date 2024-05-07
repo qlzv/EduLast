@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User-Account</title>
+<script async src="../assests/js/language.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/main.css">
+<link rel="stylesheet" href="../assests/css/account.css">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css">
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div id="preloader"></div>
+
+
+<nav class="sidebar close">
+<header>
+<div class="image-text">
+<span class="image">
+<img id = "Nav_Profile_Img" src="<%= Userdata.profile_img %>" alt="Logo">
+</span>
+
+<div class="text logo-text">
+<span class="name"><%= Userdata.username %></span>
+<span class="profession"><%= Userdata.role %></span>
+</div>
+</div>
+
+<i class='bx bx-chevron-right toggle'></i>
+</header>
+
+<div class="menu-bar">
+<div class="menu">
+
+
+
+<ul class="menu-links">
+<li class="nav-link">
+<a href="#" class="active" id = "Dashboard">
+<i class='bx bx-home-alt icon'></i>
+<span class="text nav-text" data-lang="User_Dashboard_Text">Dashboard</span>
+</a>
+</li>
+
+<li class="nav-link">
+<a href="#" id = "Account">
+<i class='bx bx-user icon'></i>
+<span class="text nav-text" data-lang="User_Account_Text">Account</span>
+</a>
+</li>
+
+<li class="nav-link">
+<a href="#" id = "Setting">
+<i class='bx bx-cog icon'></i>
+<span class="text nav-text" data-lang="User_Setting_Text">Setting</span>
+</a>
+</li>
+
+
+
+</ul>
+</div>
+
+<div class="bottom-content">
+<li class="">
+<a href="/" class="logout">
+<i class='bx bx-first-page icon' ></i>
+<span class="text nav-text" data-lang="Nav_Home">Home Page</span>
+</a>
+</li>
+
+<li class="">
+<a href="/logout" class="logout">
+<i class='bx bx-log-out icon' ></i>
+<span class="text nav-text" data-lang="User_Logout_Text">Logout</span>
+</a>
+</li>
+
+</div>
+</div>
+
+</nav>
+
+<section class="home">
+<div class="text" data-lang="User_Account_Header_Text">Account Mangement</div>
+<section id = "Dashboard-Holder">
+<div class="container">
+<div class="row">
+<div class="col-md-8 d-flex align-items-center justify-content-center">
+<div class="box bg-gr-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bolder"><%= exam_count %> <span data-lang="Main_Dashboard_Box_Solved_Text">Exam Solved</span></h1>
+
+</div>
+</div>
+<div class="col-md-4 d-flex align-items-center justify-content-center">
+<div class="box bg-bl-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bold"><%= ExamStatus.passed_exams %> <span data-lang="Main_Dashboard_Box_Pass_Text">Exam Passed</span></h1>
+<p class="text-center text-black" data-lang="Main_Dashboard_Box_Pass_Paragraph">Keep It Up</p> 
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-7 col d-flex align-items-center justify-content-center">
+<div class="box bg-bc-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-white mb-3 fw-bold"><%= ExamStatus.failed_exams %> <span data-lang="Main_Dashboard_Box_Fail_Text">Exam's Failed</span></h1>
+
+<p class="text-center text-white" data-lang="Main_Dashboard_Box_Fail_Paragraph">You Can Try Again</p> 
+</div>
+</div>
+<div class="col-md-5 d-flex align-items-center justify-content-center">
+<div class="box bg-sec-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bold"><span data-lang="Main_Dashboard_Box_Rank_Text">Your Rank Is</span> <br>"<%= ExamStatus.average_grade %>"</h1>
+<p class="text-center text-black" data-lang="Main_Dashboard_Box_Rank_Paragraph">We Hope You Get Full Marks !</p> 
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id = "Account-Holder">
+<div class="container">
+<div class="row">
+<div class="col-xl-4">
+<div class="card mb-4 mb-xl-0">
+<div class="card-header" data-lang="Account_Dashboard_Profile_Text">Profile Picture</div>
+<div class="card-body text-center">
+<form action="/upload_img" method="POST" >
+<img class="lazyload img-account-profile img-fluid mb-2" id = "profile_img" data-src="<%= Userdata.profile_img %>"  style="border-radius: 50% ;   width: calc(9.5em + 2.3vw - 2px);    
+height: calc(9.5em + 2.3vw - 2px); "  alt="Logo">
+<div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+<label for="fileInput" class="custom-btn" data-lang="Account_Dashboard_Profile_Paragraph">Upload new image</label>
+<input type="file" id="fileInput" class="file-input-hidden" name="image" accept=".png, .jpg, .jpeg">
+</form>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="card mb-4">
+<div class="card-header" data-lang="Account_Dashboard_Account_Text">Account Details</div>
+<div class="card-body">
+<form action="/upadte_profile" method="post">
+
+<div class="mb-3">
+<label class="small mb-1" for="inputUsername" data-lang="Account_Dashboard_Account_Username">Username</label>
+<input class="form-control" id="inputUsername" type="text" placeholder="Enter your username" data-lang="Account_Dashboard_Account_Username_PlaceHolder" value="<%= Userdata.username %>" name="username">
+</div>
+<div class="row gx-3 mb-3">
+<div class="col-md-6">
+<label class="small mb-1" for="inputFirstName" data-lang="Account_Dashboard_Account_FirstName">First name</label>
+<input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" data-lang="Account_Dashboard_Account_FirstName_PlaceHolder" value="<%= Userdata.first_name %>" name="firstname">
+</div>
+<div class="col-md-6">
+<label class="small mb-1" for="inputLastName" data-lang="Account_Dashboard_Account_LastName">Last name</label>
+<input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" data-lang="Account_Dashboard_Account_LastName_PlaceHolder" value="<%= Userdata.last_name %>" name="lastname">
+</div>
+</div>
+<div class="row gx-3 mb-3">
+<div class="col-md-6">
+<label class="small mb-1" for="collage_name" data-lang="Account_Dashboard_Account_Collage">Collage name</label>
+
+<select disabled class="selectpicker form-control border-0 mb-1 px-4 py-4 rounded shadow" id="collage_name">
+<option value="<%= Userdata.collage_name %>"><%= Userdata.collage_name %></option>
+</select>
+</div>
+
+</div>
+<div class="mb-3">
+<label class="small mb-1" for="inputEmailAddress" data-lang="Account_Dashboard_Account_Email">Email address</label>
+<input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" data-lang="Account_Dashboard_Account_Email_PlaceHolder" value="<%= Userdata.email %>" disabled>
+</div>
+<button class="btn btn-primary" type="submit" data-lang="Account_Dashboard_Account_Save">Save changes</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id = "Setting-Holder">
+<div class="container">
+<div class="row">
+<div class="col-md-7 col d-flex align-items-center justify-content-center">
+<div class="box bg-bc-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-white mb-3 fw-bold" data-lang="Setting_Dashboard_Account_Created_Text">Account Created</h1>
+<p class="text-center text-white"><%= age %> <span data-lang="Setting_Dashboard_Account_Created_Paragraph">Years Ago</span></p> 
+</div>
+</div>
+<div class="col-md-5 d-flex align-items-center justify-content-center">
+<div class="box bg-sec-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bold" data-lang="Setting_Dashboard_Account_Major_Text">Your Major</h1>
+<p class="text-center text-black text-uppercase"><%= Userdata.major %></a> 
+</div>
+</div>
+</div>
+<div class="row d-flex align-items-center justify-content-center">
+<div class="col-md-7 col d-flex align-items-center justify-content-center">
+<div class="box bg-gr-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bold" data-lang="Setting_Dashboard_Account_Language_Text">Language</h1>
+<div class="dropdown" tab-index="0">
+<button id="dropdown-btn"></button>
+<ul class="dropdown-content" id="dropdown-content"></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+<script>
+document.getElementById("Account-Holder").style.display = "none";
+document.getElementById("Setting-Holder").style.display = "none";
+document.getElementById("Dashboard-Holder").style.display = "";
+const body = document.querySelector('body'),
+sidebar = body.querySelector('nav'),
+toggle = body.querySelector(".toggle"),
+
+modeSwitch = body.querySelector(".toggle-switch"),
+modeText = body.querySelector(".mode-text"),
+nav_links = body.querySelectorAll('.sidebar li a:not(.logout)');
+var nav_active_link = document.querySelector('.sidebar li a.active');
+
+
+
+nav_links.forEach(function(element){
+element.addEventListener('click',function (e) {
+e.preventDefault();
+switch_page(element.getAttribute("id"));
+element.classList.add('active');
+nav_active_link.classList.remove('active')
+nav_active_link = element;
+})
+})
+
+toggle.addEventListener("click" , () =>{
+sidebar.classList.toggle("close");
+})
+
+function switch_page(page) {
+switch(page) {
+case "Dashboard":
+document.getElementById("Account-Holder").style.display = "none";
+document.getElementById("Setting-Holder").style.display = "none";
+document.getElementById("Dashboard-Holder").style.display = "";
+break;
+case "Account":
+document.getElementById("Account-Holder").style.display = "";
+document.getElementById("Setting-Holder").style.display = "none";
+document.getElementById("Dashboard-Holder").style.display = "none";
+break;
+case "Setting":
+document.getElementById("Account-Holder").style.display = "none";
+document.getElementById("Setting-Holder").style.display = "";
+document.getElementById("Dashboard-Holder").style.display = "none";
+break;
+default : 
+
+}
+}
+
+
+const sorting = document.querySelector('.selectpicker');
+const commentSorting = document.querySelector('.selectpicker');
+const sortingchoices = new Choices(sorting, {
+placeholder: true,
+placeholderValue : "Search For Collage",
+itemSelectText: '',
+searchPlaceholderValue: "Search For Collage",
+position : "bottom",
+shouldSortItems : true,
+delimiter: '|',
+searchFields: ['value'],
+});
+
+
+let sortingClass = sorting.getAttribute('class');
+window.onload= function () {
+sorting.parentElement.setAttribute('class', sortingClass);
+}
+const locales = ["ar-SA","en-US"];
+
+function getFlagSrc(countryCode) {
+return /^[A-Z]{2}$/.test(countryCode)
+? `https://flagicons.lipis.dev/flags/4x3/${countryCode.toLowerCase()}.svg`
+: "";
+}
+
+const dropdownBtn = document.getElementById("dropdown-btn");
+const dropdownContent = document.getElementById("dropdown-content");
+
+function setSelectedLocale(locale) {
+const intlLocale = new Intl.Locale(locale);
+const langName = new Intl.DisplayNames([locale], {
+type: "language",
+}).of(intlLocale.language);
+
+dropdownContent.innerHTML = "";
+
+const otherLocales = locales.filter((loc) => loc !== locale);
+otherLocales.forEach((otherLocale) => {
+const otherIntlLocale = new Intl.Locale(otherLocale);
+const otherLangName = new Intl.DisplayNames([otherLocale], {
+type: "language",
+}).of(otherIntlLocale.language);
+
+const listEl = document.createElement("li");
+listEl.innerHTML = `${otherLangName}<img src="${getFlagSrc(
+otherIntlLocale.region
+)}" />`;
+listEl.value = otherLocale;
+listEl.addEventListener("mousedown", function () {
+setSelectedLocale(otherLocale);
+fetch('/update_lang',{
+method : "POST",
+headers: {
+'Content-Type': 'application/json'
+},
+body: JSON.stringify({ language:otherLocale }),
+})
+setLanguage(otherLocale.split("-")[0]);
+});
+dropdownContent.appendChild(listEl);
+});
+
+dropdownBtn.innerHTML = `<img src="${getFlagSrc(
+intlLocale.region
+)}" />${langName}<span class="arrow-down"></span>`;
+}
+
+setSelectedLocale("<%= Userdata.language %>");
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="../assests/js/account.js"></script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>

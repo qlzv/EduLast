@@ -1,0 +1,37 @@
+#main_container{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.close_button_parent{
+    width: 71%;
+}
+
+input[type = "text"],
+input[type = "text"]:hover,
+input[type = "text"]:focus,
+input[type = "checkbox"],
+input[type = "checkbox"]:hover,
+input[type = "checkbox"]:focus,
+select,
+select:active{
+box-shadow: none !important;
+border: none !important;
+}
+
+.close_button{
+cursor: pointer;
+transition: ease-in-out 0.3s;
+width: fit-content; 
+}
+
+.close_button:hover{
+color: red;
+}
+
+.form-switch{
+    width: fit-content;
+}
+
+.form-check-input:checked {
+    background-color: green;
+}

@@ -1,0 +1,51 @@
+<!-- FILEPATH: /C:/Users/qoqoa/Desktop/Programming/Personal-Shit/views/valid_code/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/forget.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<title>Code Validation Form</title>
+</head>
+
+<body>
+<div class="container">
+<div class="row justify-content-center align-items-center vh-100">
+<div class="card col-12 col-md-8 col-lg-7 p-4">
+<div class="card-body">
+<h4 class="card-title text-center" data-lang="Valid_Code_Header">OTP Verificattion</h4>
+<div class="card-text text-center mt-5">
+<form action="/check_code" method="POST" class="otp-form">
+  
+<input class="otp-field" type="text" name="code" maxlength=1 required>
+<input class="otp-field" type="text" name="code" maxlength=1 required>
+<input class="otp-field" type="text" name="code" maxlength=1 required>
+<input class="otp-field" type="text" name="code" maxlength=1 required>
+<input class="otp-field" type="text" name="code" maxlength=1 required>
+<input class="otp-field" type="text" name="code" maxlength=1 required>
+<input type="text" class="form-control mt-3" placeholder="Email" data-lang="Signup_Email_Text" required name = "email">
+<!-- Store OTP Value -->
+<input class="otp-value" type="hidden" name="opt-value">
+<div class="d-block mt-4">
+<button class="btn btn-primary" type="submit" data-lang="Valid_Code_Verify_Button">Verify</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="../assests/js/forget.js"></script>
+<script src="../assests/js/language.js"></script>
+</body>
+
+</html>

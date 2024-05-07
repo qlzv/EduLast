@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edus</title>
+<script src="../assests/js/language.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/all.min.css">
+<link rel="stylesheet" href="../assests/css/main.css">
+<link rel="stylesheet" href="../assests/css/contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="preloader"></div>
+<%- include('../includes/nav.ejs',{isAuthenticated : isAuthenticated,Which_Active : 'Contact'}) %>
+<main class="py-5">
+
+
+<div class="contact1">
+<div class="container-contact1">
+
+
+<form class="contact1-form needs-validation" id = "form_contact"  novalidate>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-8">
+<span class="contact1-form-title" data-lang="Contact_Header_Text">
+Get in touch
+</span>
+
+<div class="wrap-input1">
+<input class="input1" type="text" name="name" placeholder="Name" data-lang="Contact_Input_Name" required>
+<div class="valid-feedback" data-lang="Contact_InputValid">
+Looks good!
+</div>
+<div class="invalid-feedback" data-lang="Contact_Input_InValid">
+Recheck Your Input
+</div>
+<span class="shadow-input1"></span>
+</div>
+
+
+<div class="wrap-input1 " >
+<input class="input1" type="text" name="subject" placeholder="Subject" data-lang="Contact_Input_Subject" required>
+<span class="shadow-input1"></span>
+<div class="valid-feedback" data-lang="Contact_InputValid">
+Looks good!
+</div>
+<div class="invalid-feedback" data-lang="Contact_Input_InValid">
+    Recheck Your Input
+</div>
+</div>
+
+<div class="wrap-input1">
+<input type="text" class="input1" name="message" placeholder="Message" data-lang="Contact_Input_Message" required></input>
+<div class="valid-feedback" data-lang="Contact_InputValid">
+Looks good!
+</div>
+<div class="invalid-feedback" data-lang="Contact_Input_InValid"> 
+    Recheck Your Input
+</div>
+<span class="shadow-input1"></span>
+</div>
+
+<div class="container-contact1-form-btn">
+<button class="contact1-form-btn">
+<span>
+<span data-lang="Contact_Send_Button_Text">Send Email</span>
+<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>            
+</div>
+</div>
+</div>
+</form>
+<div class="contact1-pic js-tilt col col-lg-6 col-md-6">
+    <img class="lazyload img-fluid" data-src="../assests/img/Emails-bro.png" alt="IMG">
+    </div>
+</div>
+</div>
+
+</main>
+<%- include('../includes/footer.ejs') %>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="../assests/js/validate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="../assests/js/contact.js"></script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>

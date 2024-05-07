@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu</title>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/all.min.css">
+<link rel="stylesheet" href="../assests/css/main.css">
+</head>
+<body>
+<div id="preloader"></div>
+<%- include('../includes/nav.ejs',{isAuthenticated : isAuthenticated,Which_Active : ''}) %>
+<main class="py-5">
+<div class="container px-5 pb-5">
+<div class="row gx-5 align-items-center">
+<div class="col-xxl-5">
+<div class="text-center text-xxl-start">
+<h1 class="display-3 fw-bolder py-3">404</h1>
+<div class="fs-3 text-muted fw-normal" data-lang="Page_404_Header_Text">Error, Page Not Found</div>
+</div>
+</div>
+<div class="col-xxl-7">
+
+<div class="d-flex justify-content-center mt-5 mt-xxl-0">
+<div>
+    <img class="lazyload img-fluid" data-src="../assests/img/404.png" width="550px" height="550px"  alt="...">
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="../assests/js/language.js"></script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>

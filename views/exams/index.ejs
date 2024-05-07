@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu</title>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/all.min.css">
+<link rel="stylesheet" href="../assests/css/main.css">
+</head>
+<body>
+<div id="preloader"></div>
+<%- include('../includes/nav.ejs',{isAuthenticated : isAuthenticated,Which_Active : ''}) %>
+<main class="py-5">
+<div class="container px-5 pb-5">
+<div class="row gx-5 align-items-center">
+<div class="col-xxl-5">
+<div class="text-center text-xxl-start text-sm-center">
+<h1 class="display-3 fw-bolder mb-4 py-5 text-left text-sm-center" data-lang="Exam_Page_Question_Text">Practice Question</h1>
+</div>
+</div>
+<div class="col-xxl-7">
+<div class="d-flex align-items-center justify-content-center justify-content-xxl-end">
+<div class="d-flex search-form">
+<input class="form-control me-1 ms-auto mx-auto text-xxl-end shadow-none" type="search" placeholder="Search..." data-lang="View_Exam_Search_Text" aria-label="Search">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="d-none align-items-center justify-content-center" id="not-found">
+<h1 class="text-center" data-lang="View_Exam_Search_Not_Found_Text">Opps, We Can't Found What You Search For</h1>
+<img class="lazyload img-fluid w-50" data-src="../assests/img/Questions-bro.png"  alt="...">
+</div>
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 text-center justify-content-center px-xl-6" id ="box">
+<% Results.forEach(result => { %>
+<div class="col my-3">
+<div class="card border-hover-primary hover-scale">
+<div class="card-body text-center">
+<% if(IsExamTaken){ %>
+<p class="text-start"><span data-lang="Exam_Page_Grade_Text">Grade :</span> <%= TakenData[0].user_grade %>/<%= TakenData[0].full_grade %></p>
+<% }else{ %>
+<p class="text-start" data-lang="Exam_Page_Not_Grade_Text">Grade : Not Graded</p>
+<% } %>
+<div class=" rounded-circle d-flex align-items-center justify-content-center mx-auto mb-1" style="width: 70px; height: 70px;">
+<i class="fa-regular fa-newspaper fs-1"></i>
+</div>
+<h4 class="fw-bold mb-3 text-decoration-underline course-name"><%= result.name %></h4>
+<a data-lang="Exam_Page_Take_Test_Text" href="/attend_exam?exam_id=<%=result.id%>" class="btn button-theme feature-text text-dark mb-0 text-break w-75 text-center mx-auto fw-semibold take-test">
+Take Test
+</a>
+</div>
+</div>
+</div>
+<% }); %>
+</div>
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/exams.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="../assests/js/language.js"></script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>

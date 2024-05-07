@@ -1,0 +1,57 @@
+<!-- FILEPATH: /C:/Users/qoqoa/Desktop/Programming/Personal-Shit/views/reset_password/index.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Password Reset</title>
+<script async src="../assests/js/language.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/reset_password.css">
+<link rel="stylesheet" href="../assests/css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<div class="container d-flex justify-content-center mt-5">
+<div class="card login-form">
+<div class="card-body">
+<h3 class="card-title text-center" data-lang="ChangePassword_Header_Text">Change password</h3>
+<div class="card-text">
+<form action="/reset_password" method="POST" id = "password_form">
+
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+<strong data-lang="ChangePassword_Tips_Text">Tips :</strong> <span  data-lang="ChangePassword_Tips_Text2"> Create At least 8 Character Password</span>
+<a class="close" data-dismiss="alert" aria-label="Close">
+</a>
+</div>
+<div class="form-group">
+<label for="password" data-lang="ChangePassword_New_Password_Text">Your new password</label>
+<input name="password" id="password" type="password" class="form-control form-control-sm" minlength="8" required>
+</div>
+<div class="form-group">
+<label for="password-1" data-lang="ChangePassword_Repeat_New_Password_Text">Repeat password</label>
+<input name="password2" id="password-1" type="password" class="form-control form-control-sm" minlength="8" required>
+
+</div>
+<div class="form-group">
+<input name = "token"   type="hidden" value="<%= token %>" class="form-control form-control-sm" required>
+</div>
+
+</form>
+<button id = "confirm" class="btn btn-primary btn-block submit-btn" data-lang="ChangePassword_Confirm">Confirm</button>
+</div>
+</div>
+</div>
+</div>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/reset.js"></script>
+</body>
+</html>

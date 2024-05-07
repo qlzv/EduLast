@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu</title>
+<link rel="apple-touch-icon" sizes="180x180" href="../assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="../assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assests/css/bootstrap.css">
+<link rel="stylesheet" href="../assests/css/all.min.css">
+<link rel="stylesheet" href="../assests/css/main.css">
+</head>
+<body>
+<div id="preloader"></div>
+<%- include('../includes/nav.ejs',{isAuthenticated : isAuthenticated,Which_Active : 'About'}) %>
+<main class="py-5">
+<div class="container px-5 pb-5">
+<div class="row gx-5 align-items-center">
+<div class="col-xxl-5">
+<div class="text-center text-xxl-start">
+<h1 class="display-3 fw-bolder mb-4 py-5" data-lang="Header_About_Text">About Us</h1>
+<div class="fs-3 text-muted fw-normal" data-lang="Header_About_Paragraph">Where Innovation And Excellence Converge We Redefine Standards And Exceed Expectations.</div>
+</div>
+</div>
+<div class="col-xxl-7">
+
+<div class="d-flex justify-content-center mt-xxl-0">
+<div>
+<img class="lazyload img-fluid" data-src="../assests/img/About us page-rafiki.png"  alt="...">
+
+</div>
+</div>
+</div>
+<h1 class="fs-1 text-dark fw-bolder text-center h-auto" data-lang="Header_Best_Text">
+We Are The Best In Your Area
+</h1>
+</div>
+</div>
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-md-4 col">
+<h1>1</h1>
+<div class="box about-cards h-auto d-flex flex-column">
+<h6 class="align-items-end m-4" data-lang="Box_Start_Text">Start Now For Free</h6>
+<p class="text-center fw-normal px-2" data-lang="Box_Start_Paragraph">Start Now With No Need For Any Cards Or Credit Completely Free</p>
+</div>
+</div>
+
+</div>
+<div class="row justify-content-center">
+
+<div class="col-md-4 col ">
+<h1>2</h1>
+<div class="box about-cards h-auto d-flex flex-column">
+<h6 class="align-items-end m-4" data-lang="Box_Simple_Text">It’s Simple</h6>
+<p class="text-center fw-normal px-1" data-lang="Box_Simple_Paragraph">Sign Up Then You Have It A Complete Library Of Exams</p>
+</div>
+</div>
+</div>
+<div class="row justify-content-end mb-5">
+
+<div class="col-md-4 col">
+<h1>3</h1>
+<div class="box about-cards h-auto d-flex flex-column">
+<h6 class="align-items-end m-4" data-lang="Box_Time_Text">Saves time</h6>
+<p class="text-center fw-normal px-1" data-lang="Box_Time_Paragraph">No Need To Spend Hours Searching Decide Right Now !</p>
+</div>
+</div>
+</div>
+<h1 class="text-center" data-lang="About_Me_Text">About Me</h1>
+<p class="text-center"><span data-lang="About_Me_Paragraph">Actually We Are Not A Team I'm One Person In My First Collage Year Develop This Hole Website From A2Z Starting From UI Ending With Full Website, It's More Than A Personal Project It's An Invitation For You To Explore The Digital Universe...</span> <br><span class="border-bottom border-dark" data-lang="About_Me_Paragraph2">Here's My Coding Through The Solitary Nights And Designing Through The Inspired Days. Welcome To My Digital Realm!</span></p>
+</div>
+</main>
+
+<%- include('../includes/footer.ejs') %>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script src="../assests/js/bootstrap.bundle.min.js"></script>
+<script src="../assests/js/all.min.js"></script>
+<script src="../assests/js/loader.js"></script>
+<script src="../assests/js/language.js"></script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>

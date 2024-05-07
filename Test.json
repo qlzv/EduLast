@@ -1,0 +1,655 @@
+[
+    {
+      "Calculus 1 Quizz": [
+        {
+          "id": 233707,
+          "for": 165901,
+          "name": "Calculus Quiz 1 (2021)",
+          "questions": [
+            {
+              "question_string": "Domain of : https://cdn.discordapp.com/attachments/1211376358891196549/1211376742871339089/calc_quiz_question.png?ex=65edf981&is=65db8481&hm=4acfb68d1c23d9e9cbaa100ba74d377cf36ad2634401e42c5d974c79703631ce&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "[-8,-∞),[8,∞)",
+                "wrong": [
+                  "[-8,8]",
+                  "[0,8]",
+                  "R"
+                ]
+              }
+            },
+            {
+              "question_string": "The Range of g(x) = 16-8x is :",
+              "Is_Image": false,
+              "choices": {
+                "correct": "R",
+                "wrong": [
+                  "(-∞,2]",
+                  "[2,∞)",
+                  "R~{2}"
+                ]
+              }
+            },
+            {
+              "question_string": "The x-intercept of https://cdn.discordapp.com/attachments/1211376358891196549/1211378471134171167/Screenshot_2024-02-25_212518.png?ex=65edfb1d&is=65db861d&hm=2e22c8ef9f92b41084818c5b3f05ac1f8dc92d503444408404411a53e4047dc0&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "{0,±1}",
+                "wrong": [
+                  "{0}",
+                  "{±1}",
+                  "{0,1}"
+                ]
+              }
+            },
+            {
+              "question_string": "One of the following represents a function of x  (y = f(x))",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1211380552196956230/Screenshot_2024-02-25_213338.png?ex=65edfd0e&is=65db880e&hm=bea47c1855083aa09de1d55ea21e9d82c60e6a2fd13c69f8f244a923cb62c20d&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1211379832580210688/Screenshot_2024-02-25_213046.png?ex=65edfc62&is=65db8762&hm=6b6f10c31d5632eef5aa6ff2360fcd9de5404c308fc667ba74913fb9fc1f3575&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1211380209354539150/Screenshot_2024-02-25_213215.png?ex=65edfcbc&is=65db87bc&hm=522caad07136a31e76152d0f96561d10c344084d5cfb6e3b9ee691fc2d3298ea&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1211380401483022386/Screenshot_2024-02-25_213304.png?ex=65edfcea&is=65db87ea&hm=ec62de94104931ddbae8cde91e2c16924376c2c329b45227c05fe278fd91a9ec&"
+                ]
+              }
+            },
+            {
+              "question_string": "the y-intercept of https://cdn.discordapp.com/attachments/1211376358891196549/1211380860293750824/Screenshot_2024-02-25_213454.png?ex=65edfd57&is=65db8857&hm=c6ea59a83f717262f0d99ce4d6ed89f76ac774afb22d08d06cdc369ea5ef30c1&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "-2",
+                "wrong": [
+                  "2",
+                  "0",
+                  "-3"
+                ]
+              }
+            },
+            {
+              "question_string": "the range of each of the following functions is R except one, which one?",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1211381450612412446/Screenshot_2024-02-25_213715.png?ex=65edfde4&is=65db88e4&hm=fa10d2fb1b1e079fe6d6c46f94fe81f4c978956353f78195c9959433b59e321d&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1211381618518917191/Screenshot_2024-02-25_213755.png?ex=65edfe0c&is=65db890c&hm=3c1d2262164e8ef3d4058f88939defe34202e2d371ff190ab0b0dc5009df7718&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1211381787603898468/Screenshot_2024-02-25_213836.png?ex=65edfe34&is=65db8934&hm=3d9fb82df0da4db99fde594d5de615307aca33757f3c49df3d1ffa87380aa3b5&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1211381968659415090/Screenshot_2024-02-25_213918.png?ex=65edfe5f&is=65db895f&hm=dd6234373ecb90cb4959e3075bb881da77986aa546de6a57fead950d73dcab6f&"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 124286,
+          "name": "Calculus Quiz 1 (2022)",
+          "for": 165901,
+          "questions": [
+            {
+              "question_string": "The Range of : https://cdn.discordapp.com/attachments/1211376358891196549/1213497532345360445/Screenshot_2024-03-02_174513.png?ex=65f5b0a5&is=65e33ba5&hm=d517c236aaacc4420e9a1f7c1dc8ad0f9feddd069a4c3a3e62c8f4d3f4f984a9&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "[-16,∞)",
+                "wrong": [
+                  "[16,∞)",
+                  "(-∞,16]",
+                  "[-3,∞)"
+                ]
+              }
+            },
+            {
+              "question_string": "The x-intercepts of the function h(x) = |x-3|-4 are :",
+              "Is_Image": false,
+              "choices": {
+                "correct": "(7,0) , (-1,0)",
+                "wrong": [
+                  "(-2,0) , (7,0)",
+                  "(0,1) , (0,-7)",
+                  "(0,-7) , (0,-1)"
+                ]
+              }
+            },
+            {
+              "question_string": "Domian of : https://cdn.discordapp.com/attachments/1211376358891196549/1213510203761496104/Screenshot_2024-03-02_183606.png?ex=65f5bc72&is=65e34772&hm=fed800e8d396cbd64640dcdedac593f6d165064f704bf0c87c1cf15f81184999&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "[-3,3]",
+                "wrong": [
+                  "R",
+                  "(-∞,3]U[3,∞)",
+                  "[-3,∞)"
+                ]
+              }
+            },
+            {
+              "question_string": "The Range of one of the following functions is [0,∞)",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1213511656160890900/Screenshot_2024-03-02_184156.png?ex=65f5bdcc&is=65e348cc&hm=800e6b5c4139bb30963233c08eddd837e713a76805982e8be9d387b28a037fe8&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213511007901720686/Screenshot_2024-03-02_183922.png?ex=65f5bd32&is=65e34832&hm=b9578d037b0427f8c267e2795e1f4273e97e3b68ef1782945e2f0054ca004055&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213511134557118484/Screenshot_2024-03-02_183952.png?ex=65f5bd50&is=65e34850&hm=9749b9c2238f4336884e005bc30f2b50d75b1bafe5963582208ca4577055b6c7&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213511507518947328/Screenshot_2024-03-02_184120.png?ex=65f5bda9&is=65e348a9&hm=b3307e3a8a0dcdc579f57983e5ddd3f05664b9ad7b96b08d8991ccfa48410e32&"
+                ]
+              }
+            },
+            {
+              "question_string": "One Of The Following equations represent a function : ",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1213514814530388058/Screenshot_2024-03-02_185428.png?ex=65f5c0bd&is=65e34bbd&hm=2987a1cbb9caf64f5afde50dcb9df8f927a8b5a58599fcf1576cde517b5d0578&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213515264117837864/Screenshot_2024-03-02_185617.png?ex=65f5c128&is=65e34c28&hm=82535fd62a318c37e4390437b7432560dc608df13b215cad49c017d1c40f4a2f&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213515406468190239/Screenshot_2024-03-02_185651.png?ex=65f5c14a&is=65e34c4a&hm=879bc8923f1a81f30824bdc99a989c9b18fbb63a89558a913c33f37aec491bc0&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213515574550990858/Screenshot_2024-03-02_185730.png?ex=65f5c173&is=65e34c73&hm=f10de316781912602b833dbdaa43b5cd27a27402d667016b45262882c5d0deea&"
+                ]
+              }
+            },
+            {
+              "question_string": "The y-intercept for the function : https://cdn.discordapp.com/attachments/1211376358891196549/1213516118640164976/Screenshot_2024-03-02_185939.png?ex=65f5c1f4&is=65e34cf4&hm=1d0a4aac00bba1b6c2287ea767489570fa8e043bd131542ce7f71712fc37016a&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "y = -3",
+                "wrong": [
+                  "y = 3",
+                  "y = 6",
+                  "y = 4"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 165239,
+          "name": "Calculus Quiz 2 (2022)",
+          "for": 165902,
+          "questions": [
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213226631833976873/Screenshot_2024-03-01_234914.png?ex=65f4b459&is=65e23f59&hm=1a57f4298e1dc1bf6beeacfa2ed3c9864a26e58d2e5947ec6d8097323b8f1ce8&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "2",
+                "wrong": [
+                  "4/5",
+                  "4",
+                  "0"
+                ]
+              }
+            },
+            {
+              "question_string": "The Function https://cdn.discordapp.com/attachments/1211376358891196549/1213227481352638504/Screenshot_2024-03-01_235245.png?ex=65f4b524&is=65e24024&hm=ee2872236d6bfac670d0ac35cb947a2025c596de3927e1cb5d33b6606359d5ee& has :",
+              "Is_Image": false,
+              "choices": {
+                "correct": "Vertical Asymptote only at x = 2",
+                "wrong": [
+                  "Vertical Asymptote only at x = 0,x = 2",
+                  "Vertical Asymptote only at x = 0,x = -1",
+                  "No Vertical Asymptote"
+                ]
+              }
+            },
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213228235316264961/Screenshot_2024-03-01_235543.png?ex=65f4b5d7&is=65e240d7&hm=52b6590763f594e2ffdef1606c8df43a338f85f1f2e7a21ed959f28cb5f32a03&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "1/3",
+                "wrong": [
+                  "2/5",
+                  "2",
+                  "0"
+                ]
+              }
+            },
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213230658844098560/Screenshot_2024-03-02_000519.png?ex=65f4b819&is=65e24319&hm=e488628549647d825e54aae801d7ba388d85cb2cfc4cf7cbb19ddadd3ebf590e&",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1213229657646956634/Screenshot_2024-03-02_000122.png?ex=65f4b72b&is=65e2422b&hm=63748f54be9590e9456748bb25634c60f5939aa7349a1e656aa165396ca82c48&",
+                "wrong": [
+                  "2",
+                  "0",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213229803260481609/Screenshot_2024-03-02_000157.png?ex=65f4b74d&is=65e2424d&hm=0e0767f9bc8ebaf2d46fd0fed4553b005600ebbbf3039d6361a474b7a8a66a30&"
+                ]
+              }
+            },
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213231045613199430/Screenshot_2024-03-02_000651.png?ex=65f4b876&is=65e24376&hm=dbabc3101b58853d56040ae5e64db0c9dd46866cbad06caa01c8dc986d4c12ae& continues at x = 1, then a = ?",
+              "Is_Image": false,
+              "choices": {
+                "correct": "3",
+                "wrong": [
+                  "2",
+                  "1",
+                  "4"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 390582,
+          "name": "Calculus Quiz 2 (2021)",
+          "for": 165981,
+          "questions": [
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213525618201731153/Screenshot_2024-03-02_193720.png?ex=65f5cacd&is=65e355cd&hm=150ad335c0623d45960a6044a912863d061fd1c38f790510e847e1e7c6c72f9c& then the value of the constant k that makes f(x) continuous at x = 0",
+              "Is_Image": false,
+              "choices": {
+                "correct": "1/5",
+                "wrong": [
+                  "-1",
+                  "-3",
+                  "-5"
+                ]
+              }
+            },
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213526372467740682/Screenshot_2024-03-02_194026.png?ex=65f5cb81&is=65e35681&hm=e87ecfedbae6b47bf52993988db081ed80bd5ab2547946844d302bc45132ba9e& the interval of continuity of f is :",
+              "Is_Image": false,
+              "choices": {
+                "correct": "(-∞,9]~{0}",
+                "wrong": [
+                  "(3,∞)~{1}",
+                  "(-∞3]",
+                  "(-∞,9]"
+                ]
+              }
+            },
+            {
+              "question_string": "cosh(3ln(x)) = ",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1213527922334498906/Screenshot_2024-03-02_194635.png?ex=65f5ccf2&is=65e357f2&hm=4ae4d0b032dd86a65eabb5196c7e21eb6d10be6890ed53b9c914a618d8e20d12&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213527670210560030/Screenshot_2024-03-02_194534.png?ex=65f5ccb6&is=65e357b6&hm=dc3804612038acd782b45ad8f125d95bca420733a2c1e646197ca02a74f28d73&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213527794445983804/Screenshot_2024-03-02_194604.png?ex=65f5ccd4&is=65e357d4&hm=f2f53d11df07e284e8dfc4602e30efcab9761eb026ef3cdd6e90cdc5d1fbf13f&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213528026936246272/Screenshot_2024-03-02_194658.png?ex=65f5cd0b&is=65e3580b&hm=da9119e56cbb7680ddf0bde683d53087206b77fcdb75c7aa34071d9af6817537&"
+                ]
+              }
+            },
+            {
+              "question_string": "In shifting y = |x-2| (left 1-unit) and (downward 3-units), the new function will be y =",
+              "Is_Image": false,
+              "choices": {
+                "correct": "|x-1|-3",
+                "wrong": [
+                  "|x-1|+3",
+                  "|x-3|+3",
+                  "|x-3|-3"
+                ]
+              }
+            },
+            {
+              "question_string": "One of the following functions is symmetric about the origin",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1213531031710466048/Screenshot_2024-03-02_195856.png?ex=65f5cfd8&is=65e35ad8&hm=42df21854ab3f711d12dd1613441eb8c21019862241440066763ad62fa462812&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213530508642750495/Screenshot_2024-03-02_195650.png?ex=65f5cf5b&is=65e35a5b&hm=db8dfccb22d513d19b7cb2df6fc0ac433d31beee13664c19c50074383b3903ed&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213530734401163348/Screenshot_2024-03-02_195745.png?ex=65f5cf91&is=65e35a91&hm=aab5c40e9af430b8b51fe73b616c7e22af5e88dd44c448304bc5df6aea893a7f&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213530894023786557/Screenshot_2024-03-02_195823.png?ex=65f5cfb7&is=65e35ab7&hm=dfa1ddd478ff516d729f775970541a7b34bcafcd504bfa5ccc23c7a299cb86b0&"
+                ]
+              }
+            },
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1211376358891196549/1213531604555665479/Screenshot_2024-03-02_200113.png?ex=65f5d060&is=65e35b60&hm=109efc860263ef7ef0fc89fde1c1524a0ad09e82dcf668f1dc028ec5d7891766&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "|x|",
+                "wrong": [
+                  "1/x",
+                  "1/|x|",
+                  "x"
+                ]
+              }
+            },
+            {
+              "question_string": "One of the following functions os one-to-one",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1211376358891196549/1213532147143680060/Screenshot_2024-03-02_200322.png?ex=65f5d0e2&is=65e35be2&hm=0dbea3ba30a788547c23099ab8b9092de838da3ce092a6279c222b460b837e19&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213532355852247092/Screenshot_2024-03-02_200411.png?ex=65f5d113&is=65e35c13&hm=0d77e6401e53075588e5bb24b4ffcea42a41b6d354dff2bfe933772b4d9d28a5&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213532504145797160/Screenshot_2024-03-02_200446.png?ex=65f5d137&is=65e35c37&hm=0c7ddeb7d8a5b1a8b7ef77bc09f36ce1ad9949f292e465cd33bed07d1ca0658a&",
+                  "https://cdn.discordapp.com/attachments/1211376358891196549/1213532635138097162/Screenshot_2024-03-02_200519.png?ex=65f5d156&is=65e35c56&hm=490c32207cd53e4ce720b1dde9d746d117169aed5589d17a107bdbbef7dd38a7&"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Calculus 1 Mid": [
+        {
+          "id": 250807,
+          "name": "Calculus Mid 21-1",
+          "for": 165901,
+          "questions": [
+            {
+              "question_string": "One of the following represents an equation of a function y = f(x)",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214225097380855848/Screenshot_2024-03-04_175652.png?ex=65f8563e&is=65e5e13e&hm=b96422d61b45226e80c882e9def7ba523d448f3d0364106e0c0b95f154a0d611&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214224773006098432/Screenshot_2024-03-04_175532.png?ex=65f855f1&is=65e5e0f1&hm=dbd6c9d5710877973e7edae609ee3337bf9616bb51c4d7fcc70d8a34d47cdca9&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214224956121022464/Screenshot_2024-03-04_175621.png?ex=65f8561c&is=65e5e11c&hm=175eb955c9eaae250baac5325e9b51cfe429024cca9ffa6a91309ee33f3f5220&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214225247037952121/Screenshot_2024-03-04_175729.png?ex=65f85662&is=65e5e162&hm=142f531ee719df711327f93dd9092f09347994d02caa419e6026dbf203b7fb47&"
+                ]
+              }
+            },
+            {
+              "question_string": "The domain of : https://cdn.discordapp.com/attachments/1214224712226443314/1214225473085771846/Screenshot_2024-03-04_175822.png?ex=65f85698&is=65e5e198&hm=97ae03dff8ab80f84559a500623debb848642715f7e262daa0c324b5e9ba7722& is :",
+              "Is_Image": false,
+              "choices": {
+                "correct": "(-2,2)",
+                "wrong": [
+                  "[-2,2]",
+                  "(-∞,-2)U(2,∞)",
+                  "[2,∞)"
+                ]
+              }
+            },
+            {
+              "question_string": "One of the following functions is symmetric about the origin :",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214227546254868500/Screenshot_2024-03-04_180638.png?ex=65f85886&is=65e5e386&hm=a2f392f8150802c71df95a1a2f3f99fa9d4f72ae36f32640b85e787dfe960a2f&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214226978702360627/Screenshot_2024-03-04_180422.png?ex=65f857fe&is=65e5e2fe&hm=5e6d59aafe3d767a4bb15c0863a5b0d35bf31fae8200158e2418a49a1b186a4d&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214227164371615744/Screenshot_2024-03-04_180506.png?ex=65f8582b&is=65e5e32b&hm=71b45ad9e737bb2299c6fe70bac28fc9f39d70baa8e24ff2372f59ac7204bb30&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214227360619175956/Screenshot_2024-03-04_180554.png?ex=65f8585a&is=65e5e35a&hm=180f4d2d54b8d96080aae3af043b139147f95edc1eb80e0a5258016a870df2a0&"
+                ]
+              }
+            },
+            {
+              "question_string": "One of the following has domain (-∞,∞)~{2} :",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214228051601264700/Screenshot_2024-03-04_180839.png?ex=65f858fe&is=65e5e3fe&hm=f808800c13367f406d40febd6bb59438e02f145efc0cfd6ca15517a6c2af250a&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214227893144657991/Screenshot_2024-03-04_180801.png?ex=65f858d8&is=65e5e3d8&hm=c33f91a8553f551ee7ecf96b6becbe557130c66e8f5fd8b9dcf99afd1b408cd1&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214228294791336008/Screenshot_2024-03-04_180936.png?ex=65f85938&is=65e5e438&hm=145c7d94df3db9a4197072eb11e4f2a7d16e51cb8340cd880d9f57d8805c7740&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214228421568233533/Screenshot_2024-03-04_181007.png?ex=65f85956&is=65e5e456&hm=07fefc87c6164afe93cb4d11f3b8cfe7cb88ca769479bdd7fac634c20c8e8654&"
+                ]
+              }
+            },
+            {
+              "question_string": "The algebraic expression of the function https://cdn.discordapp.com/attachments/1214224712226443314/1214228760317141072/Screenshot_2024-03-04_181128.png?ex=65f859a7&is=65e5e4a7&hm=ef136ee622aa7ec340a034d1761a003d50f033c1a8d6381ac42ea08053c553e1&",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214229980507279420/Screenshot_2024-03-04_181618.png?ex=65f85aca&is=65e5e5ca&hm=d689b1e9e24c53098a9cfbcc66ae03d1f20377451d3a9d7e00a9f0bcdcdbf8d0&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214230100078235688/Screenshot_2024-03-04_181647.png?ex=65f85ae7&is=65e5e5e7&hm=27018f876aad4f7af4175214248c572375f4858ad314ed2fd7e74f35df461dd0&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214230321558720593/Screenshot_2024-03-04_181740.png?ex=65f85b1b&is=65e5e61b&hm=4ccc34a432a41f8ce9e7e00c0061bf296f5420cadae9b62fce95b56bf4ca1e72&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214230431080390726/Screenshot_2024-03-04_181807.png?ex=65f85b36&is=65e5e636&hm=73c5c5db1dc2f660d11e1c40c3b2f106b4727b3f09767d2b65a9ac7d7e5d413c&"
+                ]
+              }
+            },
+            {
+              "question_string": "For https://cdn.discordapp.com/attachments/1214224712226443314/1214236792719675482/Screenshot_2024-03-04_184320.png?ex=65f86122&is=65e5ec22&hm=d9c7bb021d38972133d2317d2e0ffc79b5b726831253d022fdc86eb712d8bc2c& the inverse function is",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214233707217682512/Screenshot_2024-03-04_183107.png?ex=65f85e43&is=65e5e943&hm=5a847282abd3bc953198da0b160e8a02a323eb646aa4eb807906a1c64b1a5a77&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214233847021961296/Screenshot_2024-03-04_183140.png?ex=65f85e64&is=65e5e964&hm=e90b5f5bc76d8b3aaa62ad45a04bf2dad8664e7d13f4f4e1da2796f364d96dc4&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214233998226886656/Screenshot_2024-03-04_183217.png?ex=65f85e88&is=65e5e988&hm=c3960c6916057a64a1c186c225e4e5a2a9658db1fbd22925a22dc1fd70cc4e25&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214234118230114435/Screenshot_2024-03-04_183244.png?ex=65f85ea5&is=65e5e9a5&hm=ab25c5a1f507c41466bda9193dfbcc4041a9fa678f1d12e773f853076f689d8d&"
+                ]
+              }
+            },
+            {
+              "question_string": "One of the following function is one-to-one function :",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214235715202850826/Screenshot_2024-03-04_183905.png?ex=65f86021&is=65e5eb21&hm=1c6cff056c9cdb82673ef8c8dde822498091024c1197bd6697c936a17311de49&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214235819024449606/Screenshot_2024-03-04_183931.png?ex=65f8603a&is=65e5eb3a&hm=cfe79cd16e02eeac56f07da13a8c1da2fff466ba33ac5c490fd9446d380965e6&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214235960255057930/Screenshot_2024-03-04_184004.png?ex=65f8605c&is=65e5eb5c&hm=47d40589648e2d99460c135c2863414945037d7347db384decf2657eaaa1c7a6&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214236079285207120/Screenshot_2024-03-04_184032.png?ex=65f86078&is=65e5eb78&hm=4f6b5fa39a6f913d4fd8dae9891ab6a43f5f20dba1dfd217a9b00756fe642ba8&"
+                ]
+              }
+            },
+            {
+              "question_string": "The range of the quadratic equation https://cdn.discordapp.com/attachments/1214224712226443314/1214236430885326978/Screenshot_2024-03-04_184156.png?ex=65f860cc&is=65e5ebcc&hm=17aa0b69215bd39850ad0f401026520daf7d996ec249fceb3a60c8f2097f0ae1&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "[6,∞)",
+                "wrong": [
+                  "[2,∞)",
+                  "(-∞,2]",
+                  "[-8,∞)"
+                ]
+              }
+            },
+            {
+              "question_string": "The domain of : https://cdn.discordapp.com/attachments/1214224712226443314/1214237519965716590/Screenshot_2024-03-04_184616.png?ex=65f861d0&is=65e5ecd0&hm=8a0ff94ffe7e730ab411eb111d308a6b45822e5d7d818d33e85e67eecb70ad94&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "(-1,1]",
+                "wrong": [
+                  "[-1,1]",
+                  "(0,1]",
+                  "[-1,1)"
+                ]
+              }
+            },
+            {
+              "question_string": "if https://cdn.discordapp.com/attachments/1214224712226443314/1214238223170281503/Screenshot_2024-03-04_184903.png?ex=65f86277&is=65e5ed77&hm=c4fb5e05743ed7e238f0119e2283abc61de0931e617e564508445d2cb993ad4d& then a =",
+              "Is_Image": false,
+              "choices": {
+                "correct": "4",
+                "wrong": [
+                  "3",
+                  "5",
+                  "6"
+                ]
+              }
+            },
+            {
+              "question_string": "Shifting the function f(x) = |x+4| (up 1 unit),(right 2 units) then the result function",
+              "Is_Image": false,
+              "choices": {
+                "correct": "|x+2|+1",
+                "wrong": [
+                  "|x+1|+2",
+                  "|x-1|+2",
+                  "|x+4|+1"
+                ]
+              }
+            },
+            {
+              "question_string": "The x-intercept(s) of g(x) = 1-|1-x| :",
+              "Is_Image": false,
+              "choices": {
+                "correct": "(2,0) and (0,0)",
+                "wrong": [
+                  "only (2,0)",
+                  "only (0,-1)",
+                  "(4,0) and (-2,0)"
+                ]
+              }
+            },
+            {
+              "question_string": "The solution(s) of the equation : https://cdn.discordapp.com/attachments/1214224712226443314/1214249905963532329/Screenshot_2024-03-04_193525.png?ex=65f86d59&is=65e5f859&hm=97cb54ff8a0fb9c6b6783043d0b1332389085ac1c1ca563b0f7074efb28d9f4d&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "only 2",
+                "wrong": [
+                  "only 1",
+                  "-1 and 2",
+                  "only -1"
+                ]
+              }
+            },
+            {
+              "question_string": "The y-intercept of the function : https://cdn.discordapp.com/attachments/1214224712226443314/1214250550150041682/Screenshot_2024-03-04_193802.png?ex=65f86df2&is=65e5f8f2&hm=8dcadff8618377719e9138384a6613087adeeebd9515348f4d0dbad2adf5b8da&",
+              "Is_Image": false,
+              "choices": {
+                "correct": "(0,3)",
+                "wrong": [
+                  "(0,0)",
+                  "(0,2)",
+                  "(0,-1)"
+                ]
+              }
+            },
+            {
+              "question_string": "https://cdn.discordapp.com/attachments/1214224712226443314/1214251180197158972/Screenshot_2024-03-04_194033.png?ex=65f86e89&is=65e5f989&hm=ee54e77fdd6cded321dc27f4a2616cf14d57ad9a79faeae2536894f995964b2e& then (fohog)(x) =",
+              "Is_Image": true,
+              "choices": {
+                "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1214251736949063720/Screenshot_2024-03-04_194245.png?ex=65f86f0d&is=65e5fa0d&hm=a0157287f2ed7e6b5eb999b6ad186407a58670bb7ed19dc7da02322347b5b5de&",
+                "wrong": [
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214251461941268481/Screenshot_2024-03-04_194140.png?ex=65f86ecc&is=65e5f9cc&hm=5cc6d787288ed1eb9ac210e536fef6a41d50c98b226557531e90d5dc46fd4318&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214251597266165810/Screenshot_2024-03-04_194213.png?ex=65f86eec&is=65e5f9ec&hm=dd18c7b535a050810b01bdd61fea1bb9a64521bdc239ce2ab7a6ff9cfb128116&",
+                  "https://cdn.discordapp.com/attachments/1214224712226443314/1214251917123911770/Screenshot_2024-03-04_194328.png?ex=65f86f38&is=65e5fa38&hm=6c26bf8cc03720dfebe72d6d37c4d050e236755029994677e0e559580aa44941&"
+                ]
+              }
+            }
+          ]
+        },
+        {
+            "id": 246748,
+            "name": "Calculus Mid 21-2",
+            "for": 165901,
+            "questions": [
+              {
+                "question_string": "One of the following represents an equation of a function y = f(x)",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1215996117813297285/Screenshot_2024-03-09_151411.png?ex=65fec7a2&is=65ec52a2&hm=46213ceb216b7abd04e9999dcadb6b7411857c48b9a4640deddcb92e9df666ea&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1215996267063152771/Screenshot_2024-03-09_151455.png?ex=65fec7c6&is=65ec52c6&hm=548dd1033459a42e60c663731ce2551df60e20b520b851dbc0eb0d5836ee4ccd&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1215996407396434030/Screenshot_2024-03-09_151529.png?ex=65fec7e7&is=65ec52e7&hm=94c4048d0996652f4f782ee724264244928ecbe5446b296a21d92b2d0b66bfd4&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1215996549427888198/Screenshot_2024-03-09_151602.png?ex=65fec809&is=65ec5309&hm=f2e582b15bce7dab8e88d48c6ba3fcec1bbfedbfdcad997f5df153f5517ee52e&"
+                  ]
+                }
+              },
+              {
+                "question_string": "The domain of : https://cdn.discordapp.com/attachments/1214224712226443314/1215996724724891689/Screenshot_2024-03-09_151643.png?ex=65fec833&is=65ec5333&hm=d276785e62925eceea8dfa6b61d5f859bd01fee0b028da00b4b512ea4f38e69a&",
+                "Is_Image": false,
+                "choices": {
+                  "correct": "(-3,3)",
+                  "wrong": [
+                    "(0,∞)",
+                    "(-∞,∞)",
+                    "(-∞,-3)U(3,∞)"
+                  ]
+                }
+              },
+              {
+                "question_string": "One of the following functions is symmetric about the origin :",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1216000191115694171/Screenshot_2024-03-09_153030.png?ex=65fecb6d&is=65ec566d&hm=521fae0433fe8aa8a0b58f3600a5dfbae8c22648228110be5dd4121a67daf1d2&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1215999836411658280/Screenshot_2024-03-09_152709.png?ex=65fecb19&is=65ec5619&hm=d6c3b7244efe574ac9af6516515a5e3dc4ef35691bf2e6e9b54e16e9dee71f51&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216000045212500130/Screenshot_2024-03-09_152954.png?ex=65fecb4a&is=65ec564a&hm=45287b8a1ef2ea7601052c0a06c07b468b5212e7c1d929a7b90f2aee2a8c752f&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216000326537183242/Screenshot_2024-03-09_153100.png?ex=65fecb8e&is=65ec568e&hm=97027ba03784923202a812950e9fb9b1d0ee803a294215f16618184a6f301dd1&"
+                  ]
+                }
+              },
+              {
+                "question_string": "The Range of the following function f(x) = 1+3|cos(x)|  is :",
+                "Is_Image": false,
+                "choices": {
+                  "correct": "[1,4]",
+                  "wrong": [
+                    "[0,4]",
+                    "[1,3]",
+                    "[0,1]"
+                  ]
+                }
+              },
+              {
+                "question_string": "One of the following functions is one-to-one function",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1216001460177731675/Screenshot_2024-03-09_153534.png?ex=65fecc9c&is=65ec579c&hm=0688d41512047c2daa753f20ccaab016880b3b35b8bc743186e6ff0463ddffa0&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216001078613643365/Screenshot_2024-03-09_153400.png?ex=65fecc41&is=65ec5741&hm=cbfcc2ccc6e35d55478494a2999989d041655396ade5b3ff665d07d0d515141e&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216001242489159741/Screenshot_2024-03-09_153439.png?ex=65fecc68&is=65ec5768&hm=10b14136baec247a700f3450e686bfb8305905dc2386aebd00edb51e364bd4b3&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216001351968882688/Screenshot_2024-03-09_153508.png?ex=65fecc82&is=65ec5782&hm=f0b6042405a6cfab6d5c4be6efbbf7024319ec98c18a93a0d96a8f74900ba47d&"
+                  ]
+                }
+              },
+              {
+                "question_string": "find the inverse function for : https://cdn.discordapp.com/attachments/1214224712226443314/1216002001599463546/Screenshot_2024-03-09_153741.png?ex=65fecd1d&is=65ec581d&hm=5632eaeade77616ed02d0f7e33304724a3c683efdfa6ffad527a290dc9226fe1&",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1216002495361581116/Screenshot_2024-03-09_153940.png?ex=65fecd93&is=65ec5893&hm=f6a6f3158513eaabe216b1b7da414a8f22dd3730e3b6508f8eedf70b12593b08&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216002654237364234/Screenshot_2024-03-09_154012.png?ex=65fecdb9&is=65ec58b9&hm=4776007a1bed9c8c81283be71328f96ae89dd6673cb2ab7bcf54e05bf146177a&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216003227972141076/Screenshot_2024-03-09_154233.png?ex=65fece41&is=65ec5941&hm=01f2a281fa1de607d525a6ac11dbba001be1ce09c2c18fcf131836e809d295b4&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216003489134805083/Screenshot_2024-03-09_154331.png?ex=65fece80&is=65ec5980&hm=4a93eb216d026314bc9be263f1dac7a7335f167d66d6fec7f2fc1d8a7ef8b236&"
+                  ]
+                }
+              },
+              {
+                "question_string": "domain of : https://cdn.discordapp.com/attachments/1214224712226443314/1216004123577811056/Screenshot_2024-03-09_154606.png?ex=65fecf17&is=65ec5a17&hm=27ddddd02eb5f3960ec3e5d746304c699cacfa3a0024ec6f5c87f2d774b8366f&",
+                "Is_Image": false,
+                "choices": {
+                  "correct": "[0,1]",
+                  "wrong": [
+                    "(-∞,∞)",
+                    "[-1,1]",
+                    "[0,∞)"
+                  ]
+                }
+              },
+              {
+                "question_string": "if https://cdn.discordapp.com/attachments/1214224712226443314/1216004644464103455/Screenshot_2024-03-09_154812.png?ex=65fecf93&is=65ec5a93&hm=6926b9f9ff732e33fd3d2b1a823615d7a20578ececdacf973342d8ac3c60ba3c& then a = ?",
+                "Is_Image": false,
+                "choices": {
+                  "correct": "7",
+                  "wrong": [
+                    "4",
+                    "3",
+                    "5"
+                  ]
+                }
+              },
+              {
+                "question_string": "The result from shifting https://cdn.discordapp.com/attachments/1214224712226443314/1216005139790434354/Screenshot_2024-03-09_155001.png?ex=65fed009&is=65ec5b09&hm=8bcf4d893b5e43bb71dc14e2c17c1018344801f898eb991c78416f6219459aa7& (5 units right then 2 units up)",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1216006578130653224/Screenshot_2024-03-09_155552.png?ex=65fed160&is=65ec5c60&hm=c368d444bd36a203a6b3b452a65553a236065b26367ea5d87e636cc002b85b9e&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216006165570387988/Screenshot_2024-03-09_155413.png?ex=65fed0fe&is=65ec5bfe&hm=6a8111b5aa65f6044187dd8e4d7233173ea500490d9412a1211cb28684737b7c&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216006306591281212/Screenshot_2024-03-09_155448.png?ex=65fed11f&is=65ec5c1f&hm=b6b502e766aa3eac67db1a0a4b10a87615b236781b49f7d6c9af3833f8ab2d1c&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216006456164356179/Screenshot_2024-03-09_155523.png?ex=65fed143&is=65ec5c43&hm=0efc0fa666d4cb1cb7bd182907d4dc5bfd0801f56e355f9ad87febae9398b217&"
+                  ]
+                }
+              },
+              {
+                "question_string": "The hyperbolic function cosh(4ln(x)) =",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1216007143933607957/Screenshot_2024-03-09_155808.png?ex=65fed1e7&is=65ec5ce7&hm=41b6e8e33c65308a66af34ec38afa38f836f50c5ed8c383297e9e4be0ab06f45&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216007022118699090/Screenshot_2024-03-09_155739.png?ex=65fed1ca&is=65ec5cca&hm=576165cd58825e3b840303cbe2d2968af27a7caa7eddbdb88b75863d33406af6&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216007245687689216/Screenshot_2024-03-09_155833.png?ex=65fed1ff&is=65ec5cff&hm=05bafc6d4f40f350d5ffba348ca855f42cba90ce3c58b7db27e5cf4815930ffc&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216007384267489390/Screenshot_2024-03-09_155905.png?ex=65fed220&is=65ec5d20&hm=12cd7de6f037cf15f876cfdf52cce3bce32455b9f22cf3695eefa5032f5bd641&"
+                  ]
+                }
+              },
+              {
+                "question_string": "The algebraic expression of the function : https://cdn.discordapp.com/attachments/1214224712226443314/1216007759095664762/Screenshot_2024-03-09_160034.png?ex=65fed27a&is=65ec5d7a&hm=3583a0f03dc3d36b5bc256c16f1aa00c5062af9324131a34cf0fe2c21048adb7&",
+                "Is_Image": true,
+                "choices": {
+                  "correct": "https://cdn.discordapp.com/attachments/1214224712226443314/1216008226579939499/Screenshot_2024-03-09_160226.png?ex=65fed2e9&is=65ec5de9&hm=240cc639e3230e567b6a80915321993331f12b0b9cd503dee20937044ed31bcd&",
+                  "wrong": [
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216007914654011462/Screenshot_2024-03-09_160112.png?ex=65fed29f&is=65ec5d9f&hm=21627466f1cbd773d91dce3e6864ea5e2c5912b7d2f214224f308ce7bbd54265&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216008038671188069/Screenshot_2024-03-09_160142.png?ex=65fed2bc&is=65ec5dbc&hm=6e3dead7bea34f2a4769080e056ed5ea2cc4861c9097910499fd9f27690cd49b&",
+                    "https://cdn.discordapp.com/attachments/1214224712226443314/1216008385129091203/Screenshot_2024-03-09_160305.png?ex=65fed30f&is=65ec5e0f&hm=61c3a63607dd9a84c97d7794ece9d1ed679cd5a24430570be187bea17d6adea9&"
+                  ]
+                }
+              }
+            ]
+          }
+      ]
+    },
+    {
+      "JAVA 101": []
+    }
+  ]

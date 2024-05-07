@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu</title>
+<!-- <script src="Register.js"></script> -->
+<link rel="apple-touch-icon" sizes="180x180" href="./assests/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assests/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assests/img/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="./assests/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assests/css/bootstrap.css">
+<link rel="stylesheet" href="./assests/css/all.min.css">
+<link rel="stylesheet" href="./assests/css/main.css">
+</head>
+<body>
+<div id="preloader"></div>
+<%- include('includes/nav.ejs',{isAuthenticated : isAuthenticated,Which_Active : 'Main'}) %>
+
+<main class="py-5">
+<div class="container px-5 pb-5">
+<div class="row gx-5 align-items-center">
+<div class="col-xxl-5">
+<div class="text-center text-xxl-start">
+<h1 class="display-3 fw-bolder mb-4 py-5" data-lang="Main_Page_Header">A NEW EXAM’S SYSTEM</h1>
+<div class="fs-3 text-muted mb-5 fw-normal" data-lang="Main_Page_Header_Paragraph">Looking For Previous Exams,<br data-lang="Main_Page_Header_Paragraph_Br">
+Extra Questions ? You Arrived At The Right Place !</div>
+<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+<a class="btn button-icon button-main btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/about"><span data-lang="Learn_More_Text">Learn More</span><i class="fa-solid fa-ellipsis"></i></a>
+<% if(isAuthenticated){ %>
+<a class="btn button-icon button-theme btn-lg px-5 py-3 fs-6 fw-bolder" href="#"><span data-lang="Get_Started_Text">Get Started</span><i class="fa-solid fa-rocket"></i></a>
+<% } else {%>
+<a class="btn button-icon button-theme btn-lg px-5 py-3 fs-6 fw-bolder" href="/login"><span data-lang="Get_Started_Text">Get Started</span><i class="fa-solid fa-rocket"></i></a>
+<% } %>
+</div>
+<div class="fs-6 scroll-text"><i class="fa-solid fa-computer-mouse"></i><span data-lang="Scroll_To_See_More">Scroll To See More</span></div>
+</div>
+</div>
+<div class="col-xxl-7">
+
+<div class="d-flex justify-content-center mt-5 mt-xxl-0">
+<div>
+<img class="lazyload img-fluid mt-5" data-src="./assests/img/college project-bro.png" alt="..."  />
+</div>
+</div>
+</div>
+<h1 class="text-font text-dark fw-bolder text-center" data-lang="Why_Edu_Text">
+Why EDU ?
+</h1>
+</div>
+</div>
+<div class="container">
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 text-center justify-content-center px-xl-6" id ="box">
+<div class="col my-3">
+<div class="card border-hover-primary hover-scale">
+<div class="card-body text-center">
+<div class="bg-bl rounded-circle d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 70px; height: 70px;">
+<i class="fa-solid fa-lightbulb fs-3"></i>
+</div>
+<h4 class="fw-bold mb-3 text-decoration-underline" data-lang="Exam_Quiz_Text">Exams Quiz</h4>
+<p class="feature-text text-dark mb-0 text-break w-75 text-center mx-auto fw-semibold" data-lang="Exam_Quiz_Paragraph">Keep Tracking Of Your
+Educational Level </p>
+</div>
+</div>
+</div>
+<div class="col my-3">
+<div class="card ">
+<div class="card-body text-center">
+<div class="bg-gr rounded-circle d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 70px; height: 70px;">
+<i class="fa-solid fa-check fs-3"></i>
+</div>
+<h4 class="fw-bold mb-3 text-decoration-underline" data-lang="Trust_Text">Trust</h4>
+<p class="feature-text text-dark mb-1 text-break w-75 text-center mx-auto fw-semibold" data-lang="Trust_Text_Paragraph">In a World Where Reliability is Rare, Trust is Our Foundation.</p>
+</div>
+</div>
+</div>
+<div class="col my-3">
+<div class="card border-hover-primary hover-scale">
+<div class="card-body text-center">
+<div class="bg-red rounded-circle d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 70px; height: 70px;">
+<i class="fa-solid fa-clock fs-2"></i>
+</div>
+<h4 class="fw-bold mb-3 text-decoration-underline" data-lang="Avalible_Text">24/7 Avalible</h4>
+<p class="feature-text text-dark mb-0 text-break w-75 text-center mx-auto fw-semibold" data-lang="Avalible_Text_Paragraph">Discover How Much Time You Can Save</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-10 d-flex align-items-center justify-content-center">
+<div class="box bg-gr-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bolder" data-lang="Box_Users_Text">200K + Users</h1>
+
+<p class="text-center text-dark" data-lang="Box_Users_Paragraph">and still counting...</p> 
+</div>
+</div>
+<div class="col-md-2 d-flex align-items-center justify-content-center">
+<div class="box bg-bl-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bold" data-lang="Box_Free_Text">100% Free!</h1>
+
+<p class="text-center text-dark" data-lang="Box_Free_Paragraph">Forever.</p> 
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-7 col d-flex align-items-center justify-content-center">
+<div class="box bg-bc-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-white mb-3 fw-bold" data-lang="Box_Courses_Text">10 + Courses Supported</h1>
+
+<p class="text-center text-white" data-lang="Box_Courses_Paragraph">and still adding...</p> 
+</div>
+</div>
+<div class="col-md-5 d-flex align-items-center justify-content-center">
+<div class="box bg-sec-100 w-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="text-center text-black mb-3 fw-bold" data-lang="Box_200_Text">200 + Exams & Quizz</h1>
+
+<a class="text-center text-black" href="/view_exams" data-lang="Box_200_Paragrph">check it now !</a> 
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<%- include('includes/footer.ejs') %>
+
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+
+<script src="./assests/js/main.js"></script>
+<script src="./assests/js/bootstrap.bundle.min.js"></script>
+<script src="./assests/js/all.min.js"></script>
+<script src="./assests/js/loader.js"></script>
+<script type="module" src="./assests/js/language.js"></script>
+</body>
+</html>
